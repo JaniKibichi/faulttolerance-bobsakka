@@ -23,6 +23,6 @@ libraryDependencies ++= {
 }
 
 //Assembly Settings
-mainClass in assembly := Some("com.github.janikibichi.bobsAkka.upandrunning.Main")
+mainClass in assembly := Some("com.github.janikibichi.bobsAkka.faulttolerance.Main")
 
-assemblyJarName in assembly := "UpAndRunning-BobsAkka.jar"
+assemblyJarName in assembly := "faulttolerance-BobsAkka.jar"
