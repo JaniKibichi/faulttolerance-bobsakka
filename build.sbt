@@ -1,8 +1,8 @@
-enablePlugins(JavaServerAppPackaging)
-
 name := "faulttolerance-BobsAkka"
 
 version := "1.0"
+
+organization := "com.github.janikibichi.bobsAkka.faulttolerance"
 
 scalaVersion := "2.11.12"
 
@@ -21,8 +21,3 @@ libraryDependencies ++= {
     "org.scalatest" %% "scalatest" % "2.2.0" % Test
   )
 }
-
-//Assembly Settings
-mainClass in assembly := Some("com.github.janikibichi.bobsAkka.faulttolerance.Main")
-
-assemblyJarName in assembly := "faulttolerance-BobsAkka.jar"
